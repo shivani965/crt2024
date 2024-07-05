@@ -1,0 +1,22 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Student s1=new Student(111,"aa");
+        s1.show();
+        Student s2=new Student(222,"kk");
+        s2.show();
+    }
+}
+class Student{
+    int admno;
+    String name;
+    Student(int x,String y){
+        admno=x;
+        name=y;
+    }
+    void show(){
+        System.out.println(admno+" "+name);
+    }
+}
+        
+        
